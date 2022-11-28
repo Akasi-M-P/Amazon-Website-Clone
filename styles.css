@@ -1,0 +1,205 @@
+
+  
+
+  .navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+
+
+  #logo{
+    width: 7rem;
+    height: 3rem;
+    background-color: black;
+    border: 1px solid white;
+  }
+
+ #location{
+    width: 6rem;
+    height: 3rem;
+    background-color: black;
+    border: 1px solid white;
+ }
+
+ #input-bar{
+    width: 50rem;
+    height: 3rem;
+    margin-left: 1rem;
+    background-color: black;
+    border: 1px solid white;
+ }
+
+ #language{
+  width: 6rem;
+  height: 3rem;
+  margin-left: 6rem;
+  background-color: black;
+  border: 1px solid white;
+ }
+
+ #sign-in{
+  width: 8rem;
+  height: 3rem;
+  background-color: black;
+  border: 1px solid white;
+ }
+
+#orders{
+  width: 6rem;
+  height: 3rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#cart{
+  width: 6rem;
+  height: 3rem;
+  background-color: black;
+  border: 1px solid white;
+
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 2px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+.low-navbar{
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+#today{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#customer{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#registry{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#gifts{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#sell{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.low-navbar div{
+  margin-top: 5px;
+} 
+
+#deals{
+  width: 7rem;
+  height: 2rem;
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 51rem;
+}
+
+.caro{
+  width: 100%;
+  margin-top: 1px;
+}
+
+.col1 {
+  background-color: #818181;
+  height: 25rem;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.col1 div{
+  width: 10rem;
+  height: 8rem;
+  background-color: aquamarine;
+  margin: 5px;
+}
+
+.first-row{
+  width: 98%;
+  margin-top: -15rem;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 2rem;
+}
+
+
+.col1 div {
+  width: 10rem;
+  height: 10rem;
+  background-color: aquamarine;
+  margin: 2px;
+}
+
