@@ -192,7 +192,7 @@
   margin-top: -15rem;
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 
@@ -203,3 +203,114 @@
   margin: 2px;
 }
 
+.second-row{
+  width: 97%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 1rem;
+}
+
+.col2 {
+  background-color: #818181;
+  height: 25rem;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.col2 div {
+  width: 10rem;
+  height: 10rem;
+  background-color: aquamarine;
+  margin: 2px;
+}
+
+.col2-full{
+  background-color: #818181;
+  height: 25rem;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.col2-full div {
+  width: 25rem;
+  height: 24rem;
+  background-color: aquamarine;
+  margin: 2px;
+}
+
+.carousel-item img {
+	margin:10px;
+}
+.block4-wrap {
+	display:flex
+}
+.block4 {
+	flex:1 0 25%;
+	background: aquamarine;
+	color:#fff;
+  margin-top: 1.5rem;
+  /* margin: 1px; */
+}
+.my-captions{margin:10px;padding-bottom:3em}
+
+/* fix width and make user scroll with mouse/touch to see the items */
+@media screen and (max-width:768px){
+	.block4{max-width:280px;flex:1 0 100%;overflow:hidden}	
+	.carousel{overflow:hidden;}
+	.carousel-inner{overflow-x:visible;}
+}
+@media screen and (max-width:480px){
+	.block4{max-width:240px;}	
+}
+
+
+.caro-show{
+  width: 99%;
+  margin-left: 0.3rem;
+}
+
+.sixth-row{
+  width: 97%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 1rem;
+}
+
+
+.col6 {
+  background-color: #818181;
+  height: 25rem;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col6 div{
+  width: 10rem;
+  height: 10rem;
+  background-color: aquamarine;
+  margin: 2px;
+
+}
+
+.col6-full div{
+  width: 25rem;
+  height: 24rem;
+  background-color: aquamarine;
+  margin: 2px;
+}
+
+
+.col6-full{
+  background-color: #818181;
+  height: 25rem;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
