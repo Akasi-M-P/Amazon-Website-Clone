@@ -314,3 +314,90 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
+
+.recom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.recom div{
+  width: 15rem;
+  height: 2rem;
+  background-color: aqua;
+  margin-top: 1rem;
+}
+
+.back-top{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.back-top div{
+  height: 2rem;
+  background-color: black;
+  
+
+}
+
+
+.know-us{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+
+.know-us div{
+  height: 15rem;
+  background-color: black;
+  margin: 1px;
+  
+
+}
+
+
+.eng{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.eng div{
+  height: 10rem;
+  background-color: black;
+  
+
+}
+
+
+.footer{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.footer div{
+  height: 30rem;
+  background-color: black;
+  
+
+}
+
+
